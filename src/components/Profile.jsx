@@ -16,6 +16,7 @@ const Profile = () => {
         <p>
         Reflecting on my abilities and strengths as highlighted by my PCK results, I excel in mathematical reasoning, verbal communication, and spatial visualization, demonstrating strong analytical and interpretative skills. My natural aptitude for structured problem-solving and detail-oriented tasks complements my preference for roles that involve investigation, precision, and creativity. Additionally, I value a supportive and fair work environment, seek recognition for my contributions, and strive for a sense of accomplishment in all my endeavors. These strengths make me well-suited for careers in STEM, software development, and other intellectually stimulating fields requiring a blend of technical skills and innovative thinking.
         </p>
+        <p href='https://dlsu-vcf-csm.symplicity.com/profiles/adi.miranda'>LSlink</p>
     </animated.div>
   );
 };
