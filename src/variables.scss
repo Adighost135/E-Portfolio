@@ -25,14 +25,3 @@ ul {
 ul li {
   margin: 5px 0;
 }
-
-.carousel-image {
-  max-height: 400px; /* Set the maximum height */
-  width: auto; /* Maintain the aspect ratio */
-  object-fit: contain; /* Ensure the image fits within the container without being cropped */
-  opacity: 88%;
-}
-
-.custom-caption-black {
-  color: black; /* Set the text color to black */
-}
