@@ -2,7 +2,6 @@
   "name": "cvv",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Adighost135.github.io/E-Portfolio",
   "dependencies": {
     "@coreui/react": "^5.4.1",
     "@react-spring/web": "^9.7.5",
@@ -19,7 +18,8 @@
     "react-scripts": "5.0.1",
     "react-spring": "^9.7.4",
     "sass": "^1.81.0",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "xp.css": "^0.2.6"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -46,5 +46,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "homepage": "https://Adighost135.github.io/E-Portfolio"
 }

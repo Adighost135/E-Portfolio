@@ -1,22 +1,22 @@
 import React from 'react';
-import Header from './components/Header';
+import Hero from './components/Hero';
 import Profile from './components/Profile';
-import Experience from './components/Experience';
-import Education from './components/Education';
+// import Experience from './components/Experience';
+// import Education from './components/Education';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
-import Reflection from './components/Reflection';
+// import Reflection from './components/Reflection';
 import './App.scss';
+import "xp.css/dist/XP.css";
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      <Hero />
+      <div id="target-section"/>
       <Profile />
-      <Experience />
-      <Education />
       <Projects />
-      <Reflection />
+      {/* <Reflection /> */}
       <Footer />
     </div>
   );
