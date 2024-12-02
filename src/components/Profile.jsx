@@ -79,7 +79,7 @@ const Profile = () => {
           <button aria-label="Close"></button>
         </div>
       </div>
-      <div class="window-body">
+      <div style={{ height: 265}} class="window-body">
         <menu role="tablist">
           <button
             role="tab"
@@ -109,7 +109,7 @@ const Profile = () => {
           <br />
           <strong>Top 50 - Open Kattis</strong>
           <br />
-          <em>Check it out yourself! https://open.kattis.com/universities/dlsu.edu.ph</em>
+          <em>Check it out yourself! <a href="https://open.kattis.com/universities/dlsu.edu.ph" target="_blank" rel="noopener noreferrer">https://open.kattis.com/universities/dlsu.edu.ph</a></em>
         </article>
         <article role="tabpanel" id="edu" hidden={selectedTab !== 'edu'}>
           <strong>De La Salle University Manila</strong> - Manila

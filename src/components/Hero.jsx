@@ -4,7 +4,13 @@ import { useSpring, animated } from '@react-spring/web';
 
 const Hero = () => {
   const props = useSpring({ opacity: 1, from: { opacity: 0 } });
-  const [buttonStyle, setButtonStyle] = useState({});
+  const [buttonPosition, setButtonPosition] = useState({ x: 754, y: 367 });
+  
+  const buttonSpring = useSpring({
+    left: buttonPosition.x,
+    top: buttonPosition.y,
+    config: { tension: 170, friction: 26 }
+  });
 
   const handleAcceptClick = () => {
     const targetSection = document.getElementById('target-section');
@@ -21,11 +27,7 @@ const Hero = () => {
     const randomX = Math.floor(Math.random() * (parentWidth - 75)); // 75 is the button width
     const randomY = Math.floor(Math.random() * (parentHeight - 23)); // 23 is the button height
 
-    setButtonStyle({
-      position: 'absolute',
-      left: `${randomX}px`,
-      top: `${randomY}px`
-    });
+    setButtonPosition({ x: randomX, y: randomY });
   };
   return (
     <animated.div
@@ -52,7 +54,13 @@ const Hero = () => {
       <div className="window-body">
         <p style={{ textAlign: "center", margin: "0 0 6px 0"}}>Take me there: </p>
         <button className="button-accept" onClick={handleAcceptClick}>Accept</button>
-          <button className="button-cancel" style={buttonStyle} onClick={handleCancelClick}>Cancel</button>
+        <animated.button
+              className="button-cancel"
+              style={{ position: 'absolute', ...buttonSpring }}
+              onClick={handleCancelClick}
+            >
+              Cancel
+        </animated.button>
       </div>
     </div>
     </div>

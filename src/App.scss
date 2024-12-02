@@ -7,11 +7,6 @@
 
 .App {
   font-family: 'Roboto', sans-serif;
-  
-}
-
-.carousel-image {
-opacity: 88%;
 }
 
 .footer, .reflections{
@@ -41,12 +36,11 @@ margin: 0;
 .profile {
   padding-bottom: 0;
   padding: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  height: 101vh;
+  height: 103vh;
 }
 
 .profile > div {
@@ -62,6 +56,23 @@ margin: 0;
   width: 500px; /* Set the width for the third div */
   // justify-self: center;
   // text-align: center; /* Center the content inside the third item */
+}
+
+.projects{
+  height: 101vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.projects button{
+  margin-right: 10px;
+}
+
+.carousel-body {
+  width: 750px;
+
 }
 
 .button-accept {
