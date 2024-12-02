@@ -12,7 +12,7 @@ const Profile = () => {
   return (
     <animated.div style={{
       ...props,
-      backgroundImage: 'url(/hero2.png)', // Replace 'hero2.png' with the actual image file name
+      backgroundImage: 'url(hero2.png)', // Replace 'hero2.png' with the actual image file name
       backgroundSize: '500px 500px', // Set the size of the background image
       backgroundPosition: '0px 250px', // Position the image at a specific position
       backgroundRepeat: 'no-repeat',
