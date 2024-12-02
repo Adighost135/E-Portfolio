@@ -10,7 +10,13 @@ const Profile = () => {
   };
 
   return (
-    <animated.div style={props} className="profile">
+    <animated.div style={{
+      ...props,
+      backgroundImage: 'url(/hero2.png)', // Replace 'hero2.png' with the actual image file name
+      backgroundSize: '500px 500px', // Set the size of the background image
+      backgroundPosition: '0px 250px', // Position the image at a specific position
+      backgroundRepeat: 'no-repeat',
+    }} className="profile">
       <div style={{ width: 286, height: 304}} className="window">
         <div style={{padding: '9px 5px 9x 3px'}} class="title-bar">
         <div class="title-bar-text">profilepic.jpg</div>
@@ -58,7 +64,7 @@ const Profile = () => {
           width: "100%", 
           height: "100%", 
           overflow: "scroll"}}>
-            I am Bryce Andrei C. Miranda, a computer science student at De La Salle University (DLSU). Yes you can type here. :D                                                                                                                                                                                                                                                             Reflecting on my personality and abilities based on the APQ results, I recognize that I am a thoughtful, introverted individual who values independence and prefers tasks that allow for concentration and self-direction. I am reliable, organized, and show respect for structure and rules, which fosters trust and dependability in my commitments. My sensitivity enables me to empathize with others and appreciate creative pursuits, which aligns with my balanced approach to both practical and artistic interests. While I am not naturally inclined to leadership roles, I excel as a considerate and cooperative team member, contributing effectively without seeking the spotlight. My calmness and resourcefulness in challenging situations further highlight my capacity for rational decision-making and resilience.
+            I am Bryce Andrei C. Miranda, a computer science student at De La Salle University (DLSU). Yes you can type here. :D                                                                                                                                                                                                                                                             Reflecting on my personality and abilities based on the APQ results, I recognize that I am a thoughtful, introverted individual who values independence and prefers tasks that allow for concentration and self-direction. I am reliable, organized, and show respect for structure and rules, which fosters trust and dependability in my commitments. My sensitivity enables me to empathize with others and appreciate creative pursuits, which aligns with my balanced approach to both practical and artistic interests. While I am not naturally inclined to leadership roles, I excel as a considerate and cooperative team member, contributing effectively without seeking the spotlight. My calmness and resourcefulness in challenging situations further highlight my capacity for rational decision-making and resilience.                                                                                                                                                     GO AHEAD AND TYPE HERE!!!!
 
           </textarea>
         </div>
