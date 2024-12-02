@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/cv/static/css/main.4d4c8596.css",
+    "main.js": "/cv/static/js/main.43e1885b.js",
+    "static/js/453.1bdb513f.chunk.js": "/cv/static/js/453.1bdb513f.chunk.js",
+    "static/media/xpbackground.jpg": "/cv/static/media/xpbackground.af60337b40baf033d573.jpg",
+    "static/media/PerfectDOSVGA437Win.woff": "/cv/static/media/PerfectDOSVGA437Win.86368cc9dec15d71c965.woff",
+    "static/media/PerfectDOSVGA437Win.woff2": "/cv/static/media/PerfectDOSVGA437Win.7dc718899b215fa16aa7.woff2",
+    "static/media/ms_sans_serif.woff": "/cv/static/media/ms_sans_serif.aac84aa6de42b83d1a62.woff",
+    "static/media/ms_sans_serif_bold.woff": "/cv/static/media/ms_sans_serif_bold.9fbe71248995f1c639d4.woff",
+    "static/media/ms_sans_serif.woff2": "/cv/static/media/ms_sans_serif.0348082abb503fb6a8c2.woff2",
+    "static/media/ms_sans_serif_bold.woff2": "/cv/static/media/ms_sans_serif_bold.7fcf57cc6e87ecddbf64.woff2",
+    "index.html": "/cv/index.html",
+    "main.4d4c8596.css.map": "/cv/static/css/main.4d4c8596.css.map",
+    "main.43e1885b.js.map": "/cv/static/js/main.43e1885b.js.map",
+    "453.1bdb513f.chunk.js.map": "/cv/static/js/453.1bdb513f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d4c8596.css",
+    "static/js/main.43e1885b.js"
+  ]
+}
